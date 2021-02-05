@@ -102,7 +102,27 @@ padding:10px;
 }
 
 #Last-text {
-  text-align: center;
+  margin:50px;
   font-size: 14px;
   color: #A9A9A9;
+}
+
+.image {
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  margin:50px;
+  padding:10px;
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+  
+}
+
+.image.one {
+  background-image: url("../img/graph.jpg");
+}
+
+.image.two {
+  background-image: url("../img/monitor.jpg");
 }
