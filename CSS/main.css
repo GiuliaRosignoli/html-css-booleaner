@@ -19,9 +19,35 @@
  }
 
  .Second-container {
+   width: 100vh;
    margin: auto;
+   padding: 20px;
+ }
+
+ .text {
+   font-size: 30px;
  }
 
 .link1 {
   text-decoration: none;
+}
+
+.date {
+  font-size: 12px;
+  padding-top: 5px;
+}
+
+.tim {
+  background-size: cover;
+  width: 500px;
+  height:200px;
+}
+
+.tim.1 {
+  background-image: url("img/tim-1.jpg");
+  
+}
+
+.tim.2 {
+  background-image: url("img/tim-2.jpg");
 }
