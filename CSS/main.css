@@ -41,7 +41,7 @@
 .Tim {
   display: inline-block;
   background-size: cover;
-  width: 300px;
+  width: 200px;
   height: 150px;
 }
 
@@ -55,4 +55,9 @@
 
 .smalltext2 {
   font-size: 10px;
+  padding-bottom: 15px;
+}
+
+.paragraph {
+  padding-bottom: 20px;
 }
