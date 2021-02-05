@@ -9,7 +9,8 @@
   margin: 10px;
   padding: 10px;
   background-image: url("../img/pattern.png");
-  background-size:contain;
+  background-color: lightblue;
+  background-size: 30%;
 }
 
  #logo {
@@ -20,9 +21,8 @@
  }
 
  .Second-container {
-   width: 90vh;
+   width: 1000px;
    margin: auto;
-   padding: 20px;
  }
 
  .text {
@@ -41,15 +41,16 @@
 .Tim {
   display: inline-block;
   background-size: cover;
-  width: 200px;
-  height: 150px;
+  background-position: center;
+  width: 400px;
+  height: 400px;
 }
 
-.Tim.1 {
+.Tim.uno {
   background-image: url("../img/tim-1.jpg");
 }
 
-.Tim.2 {
+.Tim.due {
   background-image: url("../img/tim-2.jpg");
 }
 
