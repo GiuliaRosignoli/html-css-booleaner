@@ -74,13 +74,35 @@
 }
 
 .table {
-
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 10px;
+  padding-bottom: 20px;
+  line-height: 20px;
 }
 
 .first-row {
   background-color: #1E90FF;
+  color: white;
+  padding:10px;
 }
 
 .second-row {
  background-color: #7FFFD4;
+ padding:10px;
+}
+
+.fourth-row {
+background-color: #7FFFD4;
+padding:10px;
+}
+
+.paragraph2 {
+  padding-top: 40px;
+}
+
+#Last-text {
+  text-align: center;
+  font-size: 14px;
+  color: #A9A9A9;
 }
