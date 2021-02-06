@@ -21,7 +21,7 @@
    left:30px;
  }
 
- .Second-container {
+ .Second-container,.Third-container {
    width: 1000px;
    margin: auto;
  }
@@ -35,7 +35,7 @@
 }
 
 .date {
-  font-size: 12px;
+  font-size: 9px;
   padding-top: 5px;
   padding-bottom: 20px;
 }
@@ -48,29 +48,27 @@
   height: 400px;
 }
 
-.Tim.uno {
+.Tim.one {
   background-image: url("../img/tim-1.jpg");
 }
 
-.Tim.due {
+.Tim.two {
   background-image: url("../img/tim-2.jpg");
 }
 
 .smalltext2 {
   font-size: 10px;
-  padding-bottom: 15px;
+  padding-bottom: 20px;
 }
 
-.paragraph {
+.paragraph,.list {
+  padding-top: 20px;
   padding-bottom: 20px;
+  font-size: 16px;
 }
 
 .highlight {
   background-color: #FFFF00;
-}
-
-.list {
-  padding: 20px;
 }
 
 .table {
@@ -99,11 +97,13 @@ padding:10px;
 
 .paragraph2 {
   padding-top: 40px;
+  font-size: 16px;
 }
 
 #Last-text {
-  margin:50px;
-  font-size: 14px;
+  margin: 15px;
+  font-size: 17px;
+  font-weight: bold;
   color: #A9A9A9;
 }
 
@@ -111,12 +111,11 @@ padding:10px;
   background-size: cover;
   width: 200px;
   height: 200px;
-  margin:50px;
+  margin: 20px;
   padding:10px;
   font-weight: bold;
   font-size: 18px;
   color: white;
-  
 }
 
 .image.one {
