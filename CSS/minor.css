@@ -17,7 +17,7 @@
   display: block;
   width: 250px;
   margin: auto;
-  border-radius: 25px;
+  border-radius: 20px;
 }
 
 .Second-container,.Third-container {
@@ -33,12 +33,12 @@
   background-image: url("https://coingeek.com/wp-content/uploads/2021/01/tim-berners-lee-might-be-looking-for-bitcoin.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0.9;
+  opacity: 0.8;
 }
 
 #modify {
-  padding: 30px;
-  border: 8px dotted lightcoral;
+  padding: 25px;
+  border: 6px dotted lightcoral;
   border-radius: 25px;
   font-size: 40px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -47,15 +47,17 @@
 }
 
 .link1 {
+ margin: 10px;
+ padding-top: 10px;
  text-decoration: none;
  color: #1E90FF;
 }
 
 .date {
- font-size: 11px;
- color: #DC143C;
  padding-top: 5px;
  padding-bottom: 20px;
+ font-size: 11px;
+ color: #DC143C;
 }
 
 #pictures {
@@ -64,13 +66,14 @@
 
 .Tim {
  display: inline-block;
+ width: 400px;
+ height: 400px;
  background-size: cover;
  background-position: center;
  margin-bottom: 30px;
- border: 5px solid lightcoral;
+ border: 8px solid lightcoral;
  border-radius: 50%;
- width: 400px;
- height: 400px;
+ 
 }
 
 .Tim.one {
@@ -84,8 +87,8 @@
 }
 
 .smalltext2 {
- font-size: 10px;
  padding-bottom: 20px;
+ font-size: 12px;
 }
 
 .paragraph,.list {
@@ -102,25 +105,32 @@
   background-color: #000000; 
 }
 
+li {
+  list-style-position: inside;
+  padding: 8px;
+}
+
 .highlight {
  background-color:pink;
 }
 
 .table {
  width: 90%;
- margin-top: 30px;
+ margin: auto;
  border-radius: 20px;
- border: 5px solid red;
+ border: 8px solid red;
  border-spacing: 10px;
  padding-bottom: 20px;
- line-height: 14px;
+ text-align: center;
+ line-height: 20px;
+ color: #4B0082;
 }
 
 .first-row {
  background-color: #1E90FF;
+ padding:10px;
  font-size: 13px;
  color: white;
- padding:10px;
 }
 
 .second-row {
@@ -131,8 +141,8 @@ padding:10px;
 
 .fourth-row {
 background-color: #7FFFD4;
-font-size: 13px;
 padding:10px;
+font-size: 13px;
 }
 
 .paragraph2 {
@@ -141,26 +151,26 @@ padding:10px;
 }
 
 #Last-text {
- text-align: center;
- margin: 15px;
- font-size: 22px;
- font-weight: bold;
  background-color: yellow;
+ margin: 15px;
+ text-align: center;
+ font-size: 28px;
+ font-weight: bold;
  color: #4B0082;
 }
 
 .image {
  display: inline-block;
+ width: 200px;
+ height: 200px;
  background-size: cover;
  border: 5px solid lightcoral;
  border-radius: 30%;
- width: 200px;
- height: 200px;
  margin: auto;
- padding:10px;
+ padding:15px;
  font-weight: bold;
  font-size: 18px;
- color: white;
+ color: #00FFFF;
 }
 
 .image.one {
